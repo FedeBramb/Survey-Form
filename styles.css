@@ -1,0 +1,49 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.vam.ac.uk/on/demandware.static/-/Sites-VAM_Storefront/default/dw88c1556f/images/category/jewellery/jewellery_homepage_desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #7e0404;
+    font-family: sans-serif;
+    
+}
+
+h1, p {
+    text-align: center;
+}
+
+form {
+    margin: 1em auto;
+    padding: 10px;
+    background-color: rgb(212,163,115,0.8);
+    width: 40%;
+    border: solid 3px #BF9266
+}
+label, legend, textarea {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+}
+
+textarea {
+    width: 100%;
+}
+.getLarge {
+    width: 97%;
+    
+}
+
+select {
+    width: 99%
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+    
+        <h1 id="title">B. Jewellery Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve our site</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" class="getLarge" id="name" name="name" placeholder="Name" required/>
+            <label for="email" id="email-label">eMail</label>
+            <input type="email" class="getLarge" id="email" name="email"  placeholder="Enter your eMail" required/></label>
+            <label for="age" id="number-label">Age (optional)</label>
+            <input type="number" class="getLarge" id="number" name="age" min="6" max="120" placeholder="Age"/>
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select id="dropdown" name="professione">
+                <option value="">(select one)</option>
+                <option value="1">Libero professionista</option>
+                <option value="2">Studente</option>
+                <option value="3">Dipendente</option>
+                <option value="4">Disoccupato</option>
+            </select>
+            
+            <legend>Would you recommend B. Jewellery to a friend?</legend>
+            <label for="definitely">
+                <input type="radio" value="0" name="reccomend" id="definitely" checked/>Definitely
+            </label>
+            <label for="maybe">
+                <input type="radio" value="0" name="reccomend" id="maybe"/>Maybe
+            </label>
+            <label for="not-sure">
+                <input type="radio" value="0" name="reccomend" id="not-sure"/>Not sure
+            </label>
+            <legend>Wich section would you like to see more jewels?</legend>
+            <label for="rings">
+                <input type="checkbox" id="rings" value="1"/ class="block">Rings
+            </label>
+            <label for="bracelets">
+                    <input type="checkbox" id="bracelets" value="2" class="block"/>Bracelets
+            </label>
+            <label for="necklaces">
+                <input type="checkbox" id="necklaces" value="3" class="block"/>Necklaces
+            </label>
+            <label for="watch">
+                <input type="checkbox" id="watch" value="4" class="block"/>Watch
+            </label>
+            <label for="earrings">
+                <input type="checkbox" id="earrings" value="5" class="block"/>Earrings
+            </label>
+            <label for="frames">
+                    <input type="checkbox" id="frames" class="block" value="6"/>Frames
+            </label>
+        
+            <label for="bio">Any suggestions?</label>
+                <textarea class="block" name="bio" id="bio" placeholder="Leave your comments here"></textarea>
+            
+            
+            <input type="submit" value="Submit"/>
+            
+        <form>
+    
+</body>
+</html>
+
